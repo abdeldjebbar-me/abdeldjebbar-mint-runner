@@ -1,0 +1,18 @@
+name: Test Mint Runner
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check-runner:
+    runs-on: self-hosted
+    steps:
+      - name: Print system info
+        run: |
+          echo "✅ GitHub Runner test on Linux Mint"
+          echo "OS Info:"
+          lsb_release -a || cat /etc/os-release
+          echo "CPU Info:"
+          lscpu | head -n 10
+          echo "User:"
+          whoami
