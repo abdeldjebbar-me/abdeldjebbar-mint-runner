@@ -1,4 +1,4 @@
-name: Test-2 mint-runner
+name: Test2 Mint Runner
 
 on:
   workflow_dispatch:
