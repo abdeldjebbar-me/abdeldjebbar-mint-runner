@@ -1,4 +1,4 @@
-name: .github/workflows/test-runner.ym
+name: .github/workflows/test-runner.yml
 
 on:
   workflow_dispatch:
